@@ -3,6 +3,9 @@ import bgHero from "../../../../assets/images/jobs/jobs-hero-image.jpeg";
 import searchIcon from "../../../../assets/icons/search-icon.png";
 
 const Hero = () => {
+  const PopupAlert = () => {
+    alert("This is only a sample");
+  };
   return (
     <section className="relative w-full h-80">
       <img
@@ -18,6 +21,7 @@ const Hero = () => {
           <button
             type="submit"
             className="absolute top-1/2 left-3 -translate-y-1/2 pr-2"
+            onClick={PopupAlert}
           >
             <img
               src={searchIcon}

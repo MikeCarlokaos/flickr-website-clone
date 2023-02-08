@@ -5,6 +5,9 @@ import searchIcon from "../../../../assets/icons/search-icon.png";
 import uploadIcon from "../../../../assets/icons/about/upload-icon.png";
 
 const Navbar = () => {
+  const PopupAlert = () => {
+    alert("This is only a sample");
+  };
   return (
     <nav className=" w-full h-full px-6 py-2 flex items-center justify-between bg-black/80 text-white capitalize md:px-10 md:gap-x-60 md:justify-center">
       <div>
@@ -51,6 +54,7 @@ const Navbar = () => {
             <button
               type="submit"
               className="absolute top-1/2 left-3 -translate-y-1/2 pr-2"
+              onClick={PopupAlert}
             >
               <img
                 src={searchIcon}

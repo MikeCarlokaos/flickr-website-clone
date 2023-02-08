@@ -5,9 +5,9 @@ import twitter from "../../../../assets/icons/home/twitter-logo.png";
 
 const Footer = () => {
   return (
-    <section className="w-full h-full px-6 bg-black divide-y divide-gray-600 md:px-24">
+    <section className="w-full h-full px-6 bg-black divide-y divide-gray-600 md:px-40">
       <div className="py-3">
-        <ul className="w-full h-full flex flex-col gap-y-3 divide-y whitespace-nowrap text-white capitalize md:flex-row md:gap-x-[5.20rem] md:divide-y-0">
+        <ul className="w-full h-full flex flex-col gap-y-3 divide-y whitespace-nowrap text-white capitalize md:flex-row md:gap-x-[5.20rem] md:divide-y-0 md:justify-between">
           <li>
             <a href="/about" className="hover:text-zinc-500 ">
               about
@@ -73,7 +73,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <ul className="hidden w-1/2 h-full flex justify-end gap-x-9 md:block">
+        <ul className="hidden w-1/2 h-full justify-end gap-x-9 md:flex">
           <li>
             <a href="http://" target="_blank" rel="noopener noreferrer">
               <img

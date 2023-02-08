@@ -4,6 +4,10 @@ import logoTextIcon from "../../../../assets/icons/flickr-text-logo.png";
 import searchIcon from "../../../../assets/icons/search-icon.png";
 
 const Navbar = () => {
+  const PopupAlert = () => {
+    alert("This is only a sample");
+  };
+
   return (
     <nav className="relative w-full h-full grid grid-cols-2 items-center px-6  bg-black/20 text-white md:grid-cols-5 ">
       <div className="w-full h-full">
@@ -28,6 +32,7 @@ const Navbar = () => {
           <button
             type="submit"
             className="absolute top-1/2 left-4 -translate-y-1/2 pr-2"
+            onClick={PopupAlert}
           >
             <img
               src={searchIcon}

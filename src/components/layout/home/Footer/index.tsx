@@ -70,26 +70,26 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <ul className="flex gap-x-5 py-5 justify-center md:flex-row md:items-center md:gap-x-[2.25rem] md:py-0">
-        <li className="text-center">
+      <ul className="flex gap-x-5 py-5 justify-center md:flex-row md:items-center md:grid md:grid-cols-3 md:gap-x-5 md:py-0">
+        <li>
           <a href="/share-facebook">
             <img
               src={facebook}
               alt="facebook icon"
-              className="w-[24px] h-[20px] brightness-50 hover:filter-none md:w-[18px]"
+              className="w-[22px] h-[21px] brightness-50 hover:filter-none md:w-[18px]"
             />
           </a>
         </li>
-        <li className="text-center">
+        <li>
           <a href="/share-twitter">
             <img
               src={twitter}
               alt="twitter icon"
-              className="w-[20px] h-[20px] brightness-50 hover:filter-none"
+              className="w-[22px] h-[22px] brightness-50 hover:filter-none"
             />
           </a>
         </li>
-        <li className="text-center">
+        <li>
           <a href="/share-instagram">
             <img
               src={instagram}
