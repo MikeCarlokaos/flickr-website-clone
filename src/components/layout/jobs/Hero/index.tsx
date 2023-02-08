@@ -1,4 +1,3 @@
-import React from "react";
 import { HashLink } from "react-router-hash-link";
 import bgHero from "../../../../assets/images/jobs/jobs-hero-image.jpeg";
 
