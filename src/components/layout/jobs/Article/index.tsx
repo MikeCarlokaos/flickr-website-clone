@@ -8,7 +8,7 @@ const Article = () => {
   });
 
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <div>{Articles}</div>
     </section>
   );

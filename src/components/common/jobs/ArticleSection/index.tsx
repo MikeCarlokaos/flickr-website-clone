@@ -24,7 +24,7 @@ const ArticleSection = ({
   return (
     <article data-aos={`${effect}`} className="w-full h-full p-10 border-b">
       <div
-        className={`w-full h-full mx-auto flex flex-col-reverse overflow-x-hidden md:${direction} md:w-[1060px]`}
+        className={`w-full h-full mx-auto flex flex-col-reverse overflow-x-hidden md:${direction}  md:w-[1060px]`}
       >
         <div className="w-full h-full px-20 py-5 md:w-1/2">
           <h3 className="text-2xl font-semibold tracking-wide pb-6">{title}</h3>
