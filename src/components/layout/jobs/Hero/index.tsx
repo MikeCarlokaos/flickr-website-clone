@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="relative w-full h-[96vh]">
       <img
         src={bgHero}
-        alt="Hero Image"
+        alt="Hero Background"
         className="w-full h-full brightness-50 saturate-100"
       />
       <div className="absolute inset-1/2 -translate-x-1/2 -translate-y-10 w-[600px] h-96 flex flex-col items-center gap-y-7 text-white md:w-[730px]">
