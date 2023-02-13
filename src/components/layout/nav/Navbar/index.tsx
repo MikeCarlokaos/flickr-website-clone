@@ -29,7 +29,7 @@ const Navbar = () => {
           <li>
             <a
               href="/signup"
-              className="bg-sky-500/90 px-5 py-1.5 rounded font-semibold"
+              className="hidden bg-sky-500/90 px-5 py-1.5 rounded font-semibold md:block"
             >
               sign up
             </a>

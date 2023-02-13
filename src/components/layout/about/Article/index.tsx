@@ -3,7 +3,7 @@ import React from "react";
 const Article = () => {
   return (
     <section className="w-full md:w-[79%]">
-      <div className="w-[600px] py-12 mx-auto">
+      <div className="w-full py-12 mx-auto md:w-[600px]">
         <h3 className="text-4xl text-pink-500 font-semibold capitalize">
           about flickr
         </h3>

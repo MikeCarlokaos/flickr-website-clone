@@ -49,7 +49,7 @@ const Navbar = () => {
           />
         </form>
       </div>
-      <div className="w-full flex justify-end capitalize text-base">
+      <div className="w-full flex justify-end capitalize text-base whitespace-nowrap">
         <div>
           <a href="/login" className="px-5 py-2">
             log in
