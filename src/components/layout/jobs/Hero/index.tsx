@@ -9,9 +9,9 @@ const Hero = () => {
         alt="Hero Background"
         className="w-full h-full brightness-50 saturate-100"
       />
-      <div className="absolute inset-1/2 -translate-x-1/2 -translate-y-10 w-[600px] h-96 flex flex-col items-center gap-y-7 text-white md:w-[730px]">
+      <div className="absolute inset-1/2 -translate-x-1/2 -translate-y-10 w-full h-96 flex flex-col items-center gap-y-7 text-white md:w-[730px]">
         <h1 className="text-5xl font-semibold">Work at Flickr</h1>
-        <p className="text-2xl font-semibold">
+        <p className="w-full text-2xl font-semibold px-10 text-center md:px-0">
           This is work you will be proud of for the rest of your life.
         </p>
         <HashLink

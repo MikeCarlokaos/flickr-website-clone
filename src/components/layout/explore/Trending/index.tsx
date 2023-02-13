@@ -18,7 +18,7 @@ const Trending = () => {
   });
 
   return (
-    <section className="w-full h-full px-24 pt-5 pb-16 bg-gray-100">
+    <section className="w-full h-full px-10 pt-5 pb-16 bg-gray-100 md:px-24">
       <div className="w-full h-full">
         <h3 className="text-2xl mb-3">Trending</h3>
       </div>

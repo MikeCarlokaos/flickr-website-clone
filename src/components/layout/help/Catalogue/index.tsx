@@ -8,7 +8,7 @@ const Catalogue = () => {
   });
   return (
     <section className="w-full h-full">
-      <div className="w-full h-full p-16 grid grid-cols-3 gap-7">
+      <div className="w-full h-full p-16 grid grid-cols-1 md:grid-cols-3 gap-7">
         {CatalogueMenu}
       </div>
     </section>

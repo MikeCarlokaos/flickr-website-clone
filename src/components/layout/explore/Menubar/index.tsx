@@ -14,8 +14,8 @@ const Menubar = () => {
 
   return (
     <section>
-      <nav className="w-full h-full px-24 bg-white">
-        <ul className="w-full h-full flex gap-x-5 capitalize">
+      <nav className="w-full h-full px-10 bg-white md:px-24">
+        <ul className="w-full h-full flex items-center justify-center gap-x-5 capitalize md:justify-start">
           <NavLink
             style={navLinkStyles}
             to="explore-page"
