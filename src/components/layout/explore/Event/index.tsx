@@ -7,8 +7,8 @@ const Event = () => {
     <section className="w-full h-full px-5 pt-5 pb-16 bg-gray-100 md:px-24">
       <div className="w-full h-full text-center md:text-start">
         <h3 className="text-2xl mb-6 capitalize">upcoming events</h3>
-        <div className="w-full h-full grid justify-items-center md:w-1/2">
-          <div className="w-96 h-full text-center shadow-lg">
+        <div className="w-full h-full grid grid-cols-1 justify-items-center px-5 md:w-1/2 md:px-0">
+          <div className="w-80 h-full text-center shadow-lg md:w-96">
             <div className="w-full h-24">
               <img
                 src={event}
@@ -37,12 +37,12 @@ const Event = () => {
       </div>
       <div className="w-full h-full mt-16 text-center md:text-start">
         <h3 className="text-2xl mb-6 capitalize">past events</h3>
-        <div className="w-full h-full grid grid-cols-1 justify-items-center gap-y-16 md:grid-cols-2">
+        <div className="w-full h-full grid grid-cols-1 justify-items-center gap-y-16 px-5 md:grid-cols-2 md;px-0">
           {events.map((event) => {
             return (
               <div
                 key={event.id}
-                className="w-96  h-full text-center shadow-lg"
+                className="w-80 h-full text-center shadow-lg md:w-96"
               >
                 <div className="w-full h-24">
                   <img
